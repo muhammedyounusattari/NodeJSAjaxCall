@@ -12,7 +12,6 @@ app.get('/getCity',function(request,response){
         response.send('<h1>State..'+data.state+'..City..'+data.city+'....');
     })
 });
-
 app.get('/',function(request,response){
     response.sendFile(__dirname+'/pincode.html');
 })
